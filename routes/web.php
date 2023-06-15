@@ -41,3 +41,7 @@ Route::get('/sample', function(){
 Route::prefix('admin')->group(function(){
     Route::get('/dashboard', [DashboardController::class, 'index']);
 });
+
+// Route::get('/input-label', function(){
+//     return view('resources/views/components/input-label.blade.php');
+// });
